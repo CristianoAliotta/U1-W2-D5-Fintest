@@ -11,6 +11,7 @@ button {
   background: rgb(108, 193, 226);
   background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 100%);
   border: none;
+  color: white;
 }
 /* HEADER */
 .topbar {
@@ -138,10 +139,29 @@ footer {
   background-color: rgb(238, 238, 238);
   box-sizing: border-box;
   padding: 10%;
+  text
 }
 footer p {
   font-size: 1.1rem;
   margin: 20px auto;
+}
+footer h4 {
+    line-height: 1;
+}
+footer div {
+    margin-bottom: 5vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
+}
+.form input {
+    height: 5vh;
+}
+.form button {
+    height: 5vh;
+    font-size: 1.1rem;
 }
 
 /* RESPONSIVE */
