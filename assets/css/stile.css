@@ -226,6 +226,13 @@ footer div {
     width: 45%;
     margin: 30px 30px 30px 30px;
    }
+   #ways {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 50px;
+    justify-content: baseline;
+   }
     
   
     
