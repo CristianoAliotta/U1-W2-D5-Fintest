@@ -134,5 +134,14 @@ section div {
 }
 
 /* FOOTER */
+footer {
+  background-color: rgb(238, 238, 238);
+  box-sizing: border-box;
+  padding: 10%;
+}
+footer p {
+  font-size: 1.1rem;
+  margin: 20px auto;
+}
 
 /* RESPONSIVE */
