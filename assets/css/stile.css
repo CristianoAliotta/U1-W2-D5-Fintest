@@ -23,6 +23,7 @@ button {
   top: 0;
   z-index: 10;
   background-color: white;
+  box-shadow: 0 5px 10px #d3d3d3;
 }
 .topbar button {
   border: none;
@@ -32,17 +33,17 @@ button {
   color: #e42424;
 }
 .nav {
-  display: none;
+    display: none;
 }
 .cover {
-  background-image: url(../images/banner.jpg);
-  background-size: 175%;
-  background-position: 50% 50%;
-  width: 100%;
-  color: white;
-  height: 47vh;
-  box-shadow: inset 0px 35px 5px -30px #d3d3d3;
-  text-shadow: 2px 2px black;
+    background-image: url(../images/banner.jpg);
+    background-size: 175%;
+    background-position: 50% 50%;
+    width: 100%;
+    color: white;
+    height: 47vh;
+    box-shadow: inset 0px 0px 0px 900px rgba(0,0,0,25%);
+    text-shadow: 2px 2px black;
 }
 .cover h1 {
   font-size: 1.8em;
@@ -53,6 +54,7 @@ button {
 .cover p {
   font-size: 1.1rem;
   padding-left: 23px;
+  padding-right: 23px;
 }
 .cover button {
   width: 25%;
@@ -165,3 +167,67 @@ footer div {
 }
 
 /* RESPONSIVE */
+@media screen and (min-width: 768px){
+    .nav {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgb(52, 52, 52)
+    }
+    #menu{
+        display: none
+    }
+    #register{
+        background: rgb(108, 193, 226);
+        background: linear-gradient(90deg, rgba(108, 193, 226, 1) 0%, rgba(57, 47, 122, 1) 100%);
+        border: none;
+        color: white;
+        font-size: 1.3rem;
+        height: 50px;
+        width: 130px;
+    }
+    .cover {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 45vh;
+        box-sizing: border-box;
+        padding: 5vh 15vw 0 15vw;
+        font-size: larger;
+    }
+    .cover h1 {
+        margin-bottom: 2vh;
+    }
+   .cover button {
+    height: 5.5vh;
+    width: 30%;
+    font-size: large;
+   }
+   .cover button:hover {
+    box-shadow: 0px 0px 10px 0 black;
+   }
+   .options {
+    display: flex;
+   }
+   #TextUs {
+   height: 35vh;
+   }
+   #TextUs button {
+   width: 15%;
+   font-size: large;
+   }
+   section {
+    display: flex;
+   }
+   section img {
+    width: 45%;
+    margin: 30px 30px 30px 30px;
+   }
+    
+  
+    
+
+}
