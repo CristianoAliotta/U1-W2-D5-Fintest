@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+}
+.thead {
+  text-align: center;
+}
+.tbody {
+  display: flex;
+  width: 85%;
+  height: 50vh;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+.tbody h3 {
+  font-weight: bolder;
+}
+.thd {
+  width: 50%;
+}
+.tds {
+  width: 70%;
+}
+.thd div {
+  height: 10.1%;
+}
+.tds div {
+  height: 11%;
+  line-height: 1;
+}
