@@ -7,6 +7,7 @@ img {
 .thead {
   text-align: center;
   margin-top: 10vh;
+  font-size: 2.3rem;
 }
 .tbody {
   display: flex;
@@ -36,6 +37,9 @@ img {
 .blue {
   background-color: rgb(181, 188, 212);
 }
+.magic_table {
+  display: none;
+}
 section {
   padding: 0 6%;
 }
@@ -48,3 +52,85 @@ section p {
   text-align: center;
   font-size: 1.1rem;
 }
+
+@media screen and (min-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    display: flex;
+  }
+  article img {
+    height: 23vh;
+    width: 90%;
+  }
+  article p {
+    padding: 0 2vw;
+  }
+  .thead {
+    margin-top: 8vh;
+  }
+  .tbody {
+    display: none;
+  }
+  .magic_table {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .magic_table h2 {
+    font-size: 1.3rem;
+  }
+  .magic_table p {
+    font-size: smaller;
+  }
+  .mg500 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .mg1000 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-right: 0;
+  }
+  .mg2000 {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+  }
+  .mg2000 p {
+    padding: 0 0.5vh;
+  }
+  .mg500 div {
+    height: 10vh;
+    box-sizing: border-box;
+  }
+  .mg1000 div {
+    height: 10vh;
+  }
+  .mg2000 div {
+    height: 10vh;
+  }
+  .dkblue {
+    background-color: #66819f;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 1vh;
+  }
+  .skyblue {
+    background-color: #d4dde6;
+    box-sizing: border-box;
+    padding-top: 1vh;
+  }
+  {
+    height: 1vh
+  }
+  #lsrow1, #lsrow2, #lsrow3 {
+    height: 6vh;
+    margin-bottom: 6vh;
+  }
+  
