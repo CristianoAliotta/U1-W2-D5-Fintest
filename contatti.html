@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Epicode School: contattaci per i corsi di front end developer." />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/stile.css" />
+    <link rel="stylesheet" href="./assets/css/contatti.css" />
+    <title>Epicode - Contatti</title>
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <a href="./index.html"><img src="./assets/images/logo.png" alt="Logo Epicode" /></a>
+        <button id="menu"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+        <div class="nav">
+          <a href="./index.html">Home</a>
+          <a href="./chi-siamo.html">Chi siamo</a>
+          <a href="./contatti.html">Contatti</a>
+          <a href="./contatti.html"><button id="register">Registrati</button></a>
+        </div>
+      </div>
+    </header>
+    <h1>Contatti</h1>
+    <main>
+      <div class="form">
+        <input id="name" type="text" placeholder="Nome e Cognome" />
+        <input id="email" type="text" placeholder="Indirizzo valido nome@casella.com" />
+        <textarea name="scrivi qui il tuo messaggio" id="message" cols="30" rows="5">scrivi qui il tuo messaggio</textarea>
+        <button>Invia il messaggio</button>
+      </div>
+      <div class="address">
+        <h2>Sede formativa</h2>
+        <p>Via Appia 1<br />00100 Roma (RM)</p>
+        <p>info@epicode.school<br />+39 0612345956</p>
+        <h2>Lavora con noi</h2>
+        <p class="job">
+          per poterti candidare ad un ruolo da <br />
+          docente invia il tuo cv a job@epicode.school
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div id="Fsection">
+        <div class="extra">
+          <h4>Chi siamo</h4>
+          <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+        </div>
+        <div class="extra">
+          <h4>
+            Ti piace ciò che vedi? <br />
+            Condividilo con i tuoi amici!
+          </h4>
+          <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://it.linkedin.com/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="https://www.instagram.com/" target="_blank"></a><ion-icon name="logo-instagram"></ion-icon>
+        </div>
+        <div class="extra">
+          <h4>Iscriviti alla nostra newsletter</h4>
+          <div class="form1">
+            <input type="email" placeholder="email" />
+            <button type="submit">Va bene!</button>
+          </div>
+        </div>
+      </div>
+      <p class="copy">&copy;2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678</p>
+    </footer>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="">
-  <title></title>  
-</head>
-
-<body>
-
-
-</body>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
 </html>

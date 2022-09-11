@@ -153,15 +153,15 @@ footer h4 {
 footer div {
   margin-bottom: 5vh;
 }
-.form {
+.form1 {
   display: flex;
   flex-direction: column;
   padding-top: 3vh;
 }
-.form input {
+.form1 input {
   height: 5vh;
 }
-.form button {
+.form1 button {
   height: 5vh;
   font-size: 1.1rem;
 }

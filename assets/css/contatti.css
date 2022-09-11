@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 2.8rem;
+  margin-top: 3vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.form {
+  margin: 0 auto;
+  width: 85%;
+}
+.form input,
+textarea {
+  margin-bottom: 1vh;
+  font-style: oblique;
+  width: 100%;
+}
+.form input {
+  height: 4vh;
+}
+.form textarea {
+  margin-top: 1vh;
+}
+.form button {
+  width: 60%;
+  height: 6vh;
+  margin: 1vh auto;
+  margin-bottom: 3vh;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 3vh;
+}
+.job {
+  padding: 0 0.5vw;
+  margin-bottom: 5vh;
+}
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .address {
+    width: 40%;
+  }
+  .form {
+    width: 40%;
+    margin-top: 2.2vh;
+  }
+}
