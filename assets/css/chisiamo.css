@@ -1,13 +1,17 @@
+body {
+  color: black;
+}
 img {
   width: 100%;
 }
 .thead {
   text-align: center;
+  margin-top: 10vh;
 }
 .tbody {
   display: flex;
   width: 85%;
-  height: 50vh;
+  height: 65vh;
   margin: 0 auto;
   font-size: 1rem;
 }
@@ -15,15 +19,32 @@ img {
   font-weight: bolder;
 }
 .thd {
-  width: 50%;
+  width: 60%;
 }
 .tds {
   width: 70%;
 }
 .thd div {
-  height: 10.1%;
+  height: 46px;
+  padding: 5px;
 }
 .tds div {
-  height: 11%;
+  height: 46px;
   line-height: 1;
+  padding: 5px;
+}
+.blue {
+  background-color: rgb(181, 188, 212);
+}
+section {
+  padding: 0 6%;
+}
+section h2 {
+  margin: 25px 0 20px 0;
+  font-size: 3rem;
+}
+section p {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.1rem;
 }
